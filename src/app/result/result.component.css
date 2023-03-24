@@ -1,0 +1,37 @@
+
+body{
+    background-color: black;
+    height: 100vh;
+    
+    margin: 5%;
+}
+html{
+    height: 100vh;
+    padding: 5px;
+    margin: 5%;
+}
+.container-fluid{
+    padding-top: 5%;
+  
+
+}
+
+
+
+.col-4,.col-7{
+    
+
+}
+@media (max-width:896px){
+    .row{
+        display: flex;
+        display: table;
+    }
+    .col-4,.col-7{
+        
+        width: 85vw;
+        text-align: center;
+        border-radius: 15%;
+        box-shadow: 0px 5px burlywood;
+    }
+}

@@ -1,0 +1,23 @@
+footer{
+    background-color: rgba(17, 36, 36, 0.568);
+    display:table;
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    padding: 5%;
+    
+      
+}
+.footer{
+    width: 100vw;
+    
+    font-family: 'Indie Flower', cursive;
+    background-color: rgba(17, 36, 36, 0.568);
+
+}
+.footerA{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+}

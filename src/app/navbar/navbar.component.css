@@ -1,0 +1,36 @@
+span{
+    color: rgb(176, 173, 173);
+    font-size: 5vh;
+    font-family: 'Oswald', sans-serif;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    
+}
+a{
+    color: #012b01ef;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: none;
+    color: rgb(228, 240, 232);
+    font-size: 2vh;
+   
+}
+@media (max-width:896px){
+    body{
+        width: 100%;
+    }
+    span{
+        font-size: 20px;
+        margin-right: 0;
+        margin-left: 10%;
+    }
+    nav{
+        
+        width: 100%;
+    }
+}

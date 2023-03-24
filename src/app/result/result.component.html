@@ -1,0 +1,48 @@
+<div class="container-fluid bg-light">
+  <a routerLink="" href="">
+    <i class="fa-solid fa-house-user fa-2x" style="color: #d58b86;"></i>
+  </a>
+    <div class="row m-2 p-2 ms-2">
+       
+            <div class="col-4 shadow p-3 mb-5 me-2 bg-body-tertiary rounded">
+              <img [src]="Movie.Poster" alt="" style="width: 100%;height: 100%;">
+            </div>
+            <div class="col-7 bg-light shadow p-3 mb-5 bg-body-tertiary rounded">
+                <div class="card-body p-2 ">
+                    <div class="bg-dark shadow p-2 mb-5 bg-body-tertiary rounded" ><h2 class="card-title p-2 " style="font-family: 'Roboto Condensed', sans-serif;color: rgba(0, 0, 0, 0.788);"><i class="fa-solid fa-clapperboard fa-2x" style="color: #786e3b;"></i> {{Movie.Title}}<br><span style="font-size: medium;">{{Movie.Year}}-{{Movie.Language}}</span> </h2>
+                      <h6 class="card-text p-2" style="font-family: 'Rubik Bubbles', cursive;color: rgba(0, 0, 0, 0.678)">{{Movie.Genre}}</h6></div >
+                    <h5 class="card-text p-2" style="font-family: 'Rubik Bubbles', cursive;color: rgba(0, 0, 0, 0.678)">{{Movie.Plot}}</h5>
+                   
+
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><span class="details">Actors:</span >{{Movie.Actors}} </li>
+                    <li class="list-group-item"><span class="details">Director:</span >{{Movie.Director}}</li>
+                    <li class="list-group-item"><span class="details">Writer:</span >{{Movie.Writer}}</li>
+                    <li class="list-group-item"><span class="details">Duration:</span>{{Movie.Runtime}}</li>
+                    <li class="list-group-item"><span class="details">Awards:</span>{{Movie.Awards}}</li>
+
+                    <li class="list-group-item"><span class="details">Production:</span>{{Movie.Production}}</li>
+                    <li class="list-group-item"><span class="details">Released:</span>{{Movie.Released}}</li>
+                    <li class="list-group-item"><span class="details">DVD:</span>{{Movie.DVD}}</li>
+                    <li class="list-group-item"><span class="details">BoxOffice:</span>{{Movie.BoxOffice}}</li>
+                    
+                    <li class="list-group-item"><span class="details">Rating:</span>{{Movie.imdbRating}}<i class="fa-solid fa-star" style="color: #b9b53c;"></i> <span class="details">Votes:</span>{{Movie.imdbVotes}}</li>
+
+
+                  <style>
+                        span{
+                            font-family: 'Roboto Mono', monospace;
+    
+                            }
+                  </style>
+                  </ul>
+                  <div class="card-body">
+                    <a href="https://www.youtube.com/results?search_query={{Movie.Title}}+{{Movie.Language}}+{{Movie.Year}}" href="#" class="card-link" target="_blank">
+                      <button class="btn btn-dark"><i class="fa-brands fa-youtube fa-2x" style="color: #9f040c;"></i></button></a>
+                    
+                  </div>
+            </div>
+        
+    </div>
+</div>

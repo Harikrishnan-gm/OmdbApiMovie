@@ -1,0 +1,15 @@
+@media (max-width:896px){
+    body{
+        width: 100%;
+        margin-top: 50%;
+    }
+    header{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+}
+body{
+    
+}
