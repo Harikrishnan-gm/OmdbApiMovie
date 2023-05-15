@@ -1,7 +1,7 @@
 @media (max-width:896px){
     body{
         width: 100%;
-        margin-top: 50%;
+        
     }
     header{
         width: 100%;
@@ -11,5 +11,11 @@
     }
 }
 body{
-    
+    overflow: hidden;
+    height: 100vh;
+    width: 95vw;
+    display: flexbox;
+}
+html{
+    height: 100vh;
 }

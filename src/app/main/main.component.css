@@ -3,18 +3,18 @@ button :hover{
     
 }
 body{
-    
+    height: 100vh;
 }
 #search{
     color: black;
     border-radius: 40%;
 }
 #fcontainer{
-    height: 130vh;
+   
     margin-top: 5%;
 }
 #fRow{
-    height: 80vh;
+
 }
 #box{
     background-color: rgb(248, 252, 252);
