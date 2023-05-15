@@ -8,9 +8,9 @@ export class ApiService {
   constructor(private http:HttpClient) { }
   // api call to get searched movie
   allMovies(mName:any){
-    return this.http.get(`http://www.omdbapi.com/?t=${mName}&apikey=56954f39`)
+    return this.http.get(`https://www.omdbapi.com/?t=${mName}&apikey=56954f39`)
   }
   getMovie(name:any){
-    return this.http.get(`http://www.omdbapi.com/?t=${name}&apikey=56954f39`)
+    return this.http.get(`https://www.omdbapi.com/?t=${name}&apikey=56954f39`)
   }
 }
